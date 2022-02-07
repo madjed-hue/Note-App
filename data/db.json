@@ -1,0 +1,58 @@
+{
+  "notes": [
+    {
+      "title": "Complete my Note app",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.",
+      "category": "work",
+      "id": 2
+    },
+    {
+      "title": "Order a pizza!",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "category": "todos",
+      "id": 3
+    },
+    {
+      "title": "Buy Milk",
+      "details": "dont forgot to buy milk for the children at 7 pm, then come back to code",
+      "category": "reminders",
+      "id": 4
+    },
+    {
+      "title": "Watch Netflix",
+      "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+      "category": "money",
+      "id": 5
+    },
+    {
+      "title": "Check the Bill",
+      "details": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur",
+      "category": "reminders",
+      "id": 6
+    },
+    {
+      "title": "Read Book",
+      "details": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "category": "todos",
+      "id": 7
+    },
+    {
+      "title": "Creat Materrial UI course",
+      "details": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+      "category": "work",
+      "id": 8
+    },
+    {
+      "title": "Buy phone",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam viverra euismod sem, non condimentum ex aliquam eget. Aliquam pulvinar accumsan ante, in porttitor dolor volutpat in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vulputate",
+      "category": "money",
+      "id": 9
+    },
+    {
+      "title": "Go to the gym",
+      "details": "Nulla nisl justo, ornare et lacus eget, ultrices egestas eros. Morbi libero lorem, bibendum ut libero sed, pellentesque semper purus. Integer mollis ultricies leo vitae viverra. Praesent euismod odio leo, sed fermentum leo consequat et. Sed tincidunt pellentesque purus sit amet bibendum. Aliquam molestie mauris ac accumsan consectetur. Aenean id libero vel nunc laoreet pellentesque eget sed ante. Quisque pretium nibh nec interdum dignissim. Cras orci lorem, venenatis eu luctus eu, sodales vitae magna.",
+      "category": "todos",
+      "id": 10
+    }
+  ]
+}
