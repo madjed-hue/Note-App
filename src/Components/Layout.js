@@ -6,7 +6,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import SubjectOutlinedIcon from "@mui/icons-material/SubjectOutlined";
-import EditIcon from "@mui/icons-material/Edit";
+import AddIcon from "@mui/icons-material/Add";
 import { useLocation, useNavigate } from "react-router-dom";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
@@ -78,8 +78,8 @@ const useStyles = makeStyles((theme) => {
     },
     appbar: {
       width: `calc(100% - ${drawerWidth}px) !important`,
-      backgroundColor: "#26c6da !important",
-      color: `black !important`,
+      backgroundColor: "background.default !important",
+      color: `white !important`,
     },
     toolbar: theme.mixins.toolbar,
     date: {
@@ -90,6 +90,7 @@ const useStyles = makeStyles((theme) => {
 
 const Layout = ({ children }) => {
   const [mode, setMode] = useState("light");
+
   const colorMode = useMemo(
     () => ({
       toggleColorMode: () => {
@@ -120,7 +121,7 @@ const Layout = ({ children }) => {
     },
     {
       text: "Create Note",
-      icon: <EditIcon />,
+      icon: <AddIcon />,
       path: "/create",
     },
   ];
@@ -132,7 +133,7 @@ const Layout = ({ children }) => {
           <AppBar className={classes.appbar} elevation={0}>
             <Toolbar>
               <Typography className={classes.date}>
-                Today is the {format(new Date(), "do-MMMM-y")}{" "}
+                Today is the {format(new Date(), "do-MMMM-y")}
               </Typography>
               <Avatar src="/3.jpg" />
               <MyApp />
@@ -159,7 +160,13 @@ const Layout = ({ children }) => {
                     location.pathname === item.path ? classes.active : null
                   }
                 >
-                  <ListItemIcon>{item.icon}</ListItemIcon>
+                  <ListItemIcon
+                    className={
+                      location.pathname === item.path ? classes.active : null
+                    }
+                  >
+                    {item.icon}
+                  </ListItemIcon>
                   <ListItemText primary={item.text} />
                 </ListItem>
               ))}

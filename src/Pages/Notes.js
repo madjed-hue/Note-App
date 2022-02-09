@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Container } from "@mui/material";
 import NoteCard from "../Components/NoteCard";
 import Masonry from "react-masonry-css";
+import { useAlert } from "react-alert";
 
 const Notes = () => {
   const [notes, setNotes] = useState([]);
@@ -10,13 +11,14 @@ const Notes = () => {
       .then((res) => res.json())
       .then((data) => setNotes(data));
   }, []);
-
+  const alert = useAlert();
   const handleDelete = async (id) => {
     await fetch(`http://localhost:8000/notes/${id}`, {
       method: "DELETE",
     });
     const newNotes = notes.filter((note) => note.id !== id);
     setNotes(newNotes);
+    alert.success("Note Deleted Successfully");
   };
   const breakpoints = {
     default: 3,

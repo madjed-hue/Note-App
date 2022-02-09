@@ -12,6 +12,7 @@ import { FormControlLabel } from "@mui/material";
 import FormControl from "@mui/material/FormControl";
 import FormLabel from "@mui/material/FormLabel";
 import { useNavigate } from "react-router-dom";
+import { useAlert } from "react-alert";
 
 const useStyles = makeStyles({
   field: {
@@ -31,6 +32,7 @@ const Create = () => {
   const [detailsError, setDetailsError] = useState(false);
   const [category, setCategory] = useState("todos");
   const navigate = useNavigate();
+  const alert = useAlert();
 
   const classes = useStyles();
 
@@ -52,6 +54,7 @@ const Create = () => {
         body: JSON.stringify({ title, details, category }),
       }).then(() => navigate("/"));
     }
+    alert.success("Your Note Created Successfully");
   };
   return (
     <Container>
