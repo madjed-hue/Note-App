@@ -20,6 +20,7 @@ const Notes = () => {
     setNotes(newNotes);
     alert.success("Note Deleted Successfully");
   };
+
   const breakpoints = {
     default: 3,
     1100: 2,

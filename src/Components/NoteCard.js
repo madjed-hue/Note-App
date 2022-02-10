@@ -6,7 +6,6 @@ import { Avatar, IconButton, Typography } from "@mui/material";
 import { DeleteOutlined } from "@mui/icons-material";
 import { makeStyles } from "@mui/styles";
 import { lightBlue, purple, red, amber } from "@mui/material/colors";
-import EditIcon from "@mui/icons-material/Edit";
 
 const useStyles = makeStyles({
   avatar: {
@@ -41,9 +40,6 @@ const NoteCard = ({ note, handleDelete }) => {
             <div className="action__buttons">
               <IconButton onClick={() => handleDelete(note.id)}>
                 <DeleteOutlined />
-              </IconButton>
-              <IconButton>
-                <EditIcon />
               </IconButton>
             </div>
           }
