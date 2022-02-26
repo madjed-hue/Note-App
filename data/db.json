@@ -43,16 +43,16 @@
       "id": 8
     },
     {
-      "title": "Buy phone",
-      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam viverra euismod sem, non condimentum ex aliquam eget. Aliquam pulvinar accumsan ante, in porttitor dolor volutpat in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vulputate",
-      "category": "money",
-      "id": 9
-    },
-    {
       "title": "Go to the gym",
       "details": "Nulla nisl justo, ornare et lacus eget, ultrices egestas eros. Morbi libero lorem, bibendum ut libero sed, pellentesque semper purus. Integer mollis ultricies leo vitae viverra. Praesent euismod odio leo, sed fermentum leo consequat et. Sed tincidunt pellentesque purus sit amet bibendum. Aliquam molestie mauris ac accumsan consectetur. Aenean id libero vel nunc laoreet pellentesque eget sed ante. Quisque pretium nibh nec interdum dignissim. Cras orci lorem, venenatis eu luctus eu, sodales vitae magna.",
       "category": "todos",
       "id": 10
+    },
+    {
+      "title": "New Title",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      "category": "reminders",
+      "id": 11
     }
   ]
 }
