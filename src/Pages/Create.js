@@ -48,7 +48,7 @@ const Create = () => {
     }
 
     if (title && details) {
-      fetch("http://localhost:8000/notes", {
+      fetch("https://not-web-app.herokuapp.com/notes", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ title, details, category }),
