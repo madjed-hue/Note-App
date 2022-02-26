@@ -13,7 +13,7 @@ const Notes = () => {
   }, []);
   const alert = useAlert();
   const handleDelete = async (id) => {
-    await fetch(`https://not-web-app.herokuapp.com/${id}`, {
+    await fetch(`https://not-web-app.herokuapp.com/notes/${id}`, {
       method: "DELETE",
     });
     const newNotes = notes.filter((note) => note.id !== id);
